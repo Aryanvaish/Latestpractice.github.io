@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-cont1 {
+  background-color: rgb(15, 15, 94);
+  text-align: center;
+}
+
+.nav-cont1 ul {
+  display: flex;
+}
+
+.nav-cont1 ul li {
+  font-weight: bold;
+  list-style: none;
+  width: 12rem;
+  margin: 1rem;
+  padding: 0.8rem;
+}
+
+.nav-cont1 ul li a {
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  margin: auto;
+}
+
+.nav-cont1 ul li a:hover {
+  font-weight: bold;
+  color: blueviolet;
+  background-color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.4rem;
+}
+
+.sub-menu1 {
+  display: none;
+}
+
+.sub-menu1 ul li img {
+  height: 1rem;
+  width: 0.8rem;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 0 0 0.7rem;
+}
+
+.nav-cont1 ul li:hover .sub-menu1 {
+  display: flex;
+  position: absolute;
+  background-color: rgb(15, 15, 94);
+  margin: 0.8rem 0 0 -2.8rem;
+  border-radius: 0.5rem;
+}
+
+.nav-cont1 ul li:hover .sub-menu1 ul {
+  display: block;
+  margin: 1rem;
+}
+
+.nav-cont1 ul li:hover .sub-menu1 ul li a {
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.6rem;
+}
+
+.sub-menu2 {
+  display: none;
+}
+
+.nav-cont1 ul li:hover .sub-menu2 {
+  display: flex;
+  position: absolute;
+  background-color: rgb(15, 15, 94);
+  margin: 0.8rem 0 0 -2.8rem;
+}
+
+.nav-cont1 ul li:hover .sub-menu2 ul {
+  display: block;
+  margin: 0.5rem 1rem;
+}
+
+.nav-cont1 ul li:hover .sub-menu2 ul li a {
+  padding: 0.8rem 0rem;
+  border-radius: 0.6rem;
+}
+
+.sub-menu2 ul li a:hover {
+  background-color: rgb(15, 15, 94);
+  color: #fff;
+}
+
+.sub2-menu1 {
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 17%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub2-menu2 {
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 38%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub2-menu3 {
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 60%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub3-menu1 {
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 15%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+.sub3-menu2 {
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 31%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub2-menu1 ul li{
+  display: flex;
+} 
+
+.sub2-menu1 ul li img{
+  width: 1.2rem;
+  height: .8rem;
+  margin: 1.3rem 0 0 0;
+}
+
+.sub2-menu3 ul li{
+  display: flex;
+} 
+
+.sub2-menu3 ul li img{
+  width: 1.2rem;
+  height: .8rem;
+  margin: 1.2rem 0 0 0;
+}
+
+.sub4-menu1 {
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 5%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub4-menu2 {
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 5%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub2-menu2 ul li{
+  display: flex;
+} 
+
+.sub2-menu2 ul li img{
+  width: 1.2rem;
+  height: .8rem;
+  margin: 1.2rem 0 0 0;
+}
+
+.sub5-menu1{
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 5%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub5-menu2{
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 15%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub5-menu3{
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 25%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub5-menu4{
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 35%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub5-menu5{
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 45%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub6-menu1{
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 15%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub6-menu2{
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  top: 25%;
+  left: 98%;
+  background-color: rgb(15, 15, 94);
+  border-radius: 0.5rem;
+}
+
+.sub6-menu1 ul li{
+  display: flex;
+} 
+
+.sub3-menu1 ul li img{
+  width: 1.2rem;
+  height: .8rem;
+}
